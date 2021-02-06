@@ -8,10 +8,7 @@
         },
         {
             "Effect": "Allow",
-            "Action": [
-                "logs:CreateLogStream",
-                "logs:PutLogEvents"
-            ],
+            "Action": ["logs:CreateLogStream", "logs:PutLogEvents"],
             "Resource": [
                 "arn:aws:logs:us-east-1:*:log-group:/aws/lambda/chaos-monkey:*"
             ]
